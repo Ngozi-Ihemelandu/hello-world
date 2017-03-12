@@ -5,3 +5,6 @@ where debugDetails.quotaPath like '%False%'
 and DataCollection.MetadataVersionNumber = '6:2'
 
 line added from mylibrary instance
+
+Line entry from new directory
+
