@@ -4,3 +4,5 @@
 * love
 * peace
 * joy
+
+# Loving the one true God
