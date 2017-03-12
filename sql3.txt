@@ -1,0 +1,5 @@
+
+select right(mid(debugDetails.quotaPath,1,find(debugDetails.quotaPath, 'False') + 5), len(mid(debugDetails.quotaPath,1,find(debugDetails.quotaPath, 'False') + 5)) - find(mid(debugDetails.quotaPath,1,find(debugDetails.quotaPath, 'False') + 5),';',,TRUE)) quotas
+from VDATA
+where debugDetails.quotaPath like '%False%'
+and DataCollection.MetadataVersionNumber = '6:2'
