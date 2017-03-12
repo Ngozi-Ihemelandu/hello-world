@@ -3,3 +3,5 @@ select right(mid(debugDetails.quotaPath,1,find(debugDetails.quotaPath, 'False') 
 from VDATA
 where debugDetails.quotaPath like '%False%'
 and DataCollection.MetadataVersionNumber = '6:2'
+
+line added from mylibrary instance
